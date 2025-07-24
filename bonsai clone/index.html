@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=DM+Serif+Display:ital@0;1&display=swap');
+
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: 'DM Serif Display', 'Archivo', sans-serif;
+    }
+
+    .navcontainer {
+        padding: 0px 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navcontainer ul {
+        display: flex;
+        padding: 15px 0px;
+        gap: 40px;
+        font-weight: bolder;
+    }
+
+    .navcontainer li {
+        list-style: none;
+        font-family: 'Archivo';
+    }
+
+    .line {
+        background-color: #000000;
+        height: 2px;
+        width: 100%;
+        border: none;
+    }
+
+    .navcontainer h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .svg {
+        text-align: center;
+    }
+
+    .svg h1 {
+        font-weight: 700;
+        font-size: 105px;
+        margin: 15px 5px;
+    }
+
+    .svg li {
+        list-style: none;
+    }
+
+    .svg h4 {
+        font-size: 25px;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    .svg a {
+        text-decoration: none;
+        color: #000000;
+        font-weight: bolder;
+        font-family: 'Archivo';
+    }
+
+    .svg ul {
+        display: flex;
+        gap: 60px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .svg img {
+        width: 13px;
+    }
+
+    .partition {
+        padding: 0 20px;
+        display: flex;
+        align-items: flex-start;
+        align-items: center;
+        justify-content: space-between;
+        height: 200px;
+    }
+
+    .part1,
+    .part2,
+    .part3 {
+        flex: 1;
+        padding: 10px;
+    }
+
+    .part1 li {
+        list-style-type: circle;
+        font-family: 'Archivo';
+        margin-bottom: 5px;
+    }
+
+    .part1 ul {
+        padding: 0px 20px;
+        margin: 10px 0;
+    }
+
+    .hline {
+        width: 2px;
+        height: 100%;
+        background-color: #000000;
+        margin: 20px 0;
+    }
+
+    .part2 h2 {
+        text-align: center;
+        margin: 0 0 15px 0;
+
+    }
+
+    .part2 ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 80px;
+    }
+
+    .part2 li {
+        list-style: none;
+        font-family: 'Archivo';
+        padding: 6px 12px;
+        font-weight: 500;
+        border-radius: 4px;
+    }
+
+    .part3 {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .part3 a {
+        text-decoration: underline;
+        color: #000000;
+    }
+
+    .part3 li {
+        list-style-type: none;
+        font-family: 'Archivo';
+        font-weight: 500;
+    }
+
+    .part3 ul {
+        padding: 0px 0px;
+    }
+
+
+    .boxes {
+        padding: 40px 100px;
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .box1,
+    .box2 {
+        color: #fff;
+        width: 280px;
+        padding: 20px;
+        height: 100px;
+    }
+
+    .box1 {
+        background-color: #000000;
+    }
+
+    .box2 {
+        background-color: #413c3c;
+    }
+
+    .box1 h1 {
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+
+    .box2 h1 {
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+
+    .flyer {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .box3 h2 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .box3 {
+        border: 2px solid black;
+        width: 200px;
+        height: 120px;
+    }
+    .img{
+        width: 80vw;
+    }
+</style>
+
+<body>
+    <main class="navcontainer">
+        <h1>Frontend Practice</h1>
+        <ul>
+            <li>Home</li>
+            <li>Projects</li>
+            <li>FAQS</li>
+        </ul>
+    </main>
+    <div class="line"></div>
+    <section class="svg">
+        <h1>Bonsai</h1>
+        <h4>Pricing page (pervious design)</h4>
+        <ul>
+            <Li><img src="global.png" alt=""> <a href="#">View Live</a></Li>
+            <Li><img src="camera.png" alt=""> <a href="#">Free Photo Assests</a></Li>
+            <Li><img src="star.png" alt=""> <a href="#">Open Source Icons</a></Li>
+        </ul>
+    </section>
+    <div class="line"></div>
+    <section class="partition">
+        <div class="part1">
+            <h2>Recreate this to learn:</h2>
+            <ul>
+                <li>Pricing layout</li>
+                <li>Toggle switches</li>
+                <li>Dropdowns</li>
+                <li>Accordions</li>
+                <li>and more!</li>
+            </ul>
+        </div>
+        <div class="hline"></div>
+        <div class="part2">
+            <h2>Color Palette:</h2>
+            <ul>
+                <div class="list1">
+                    <li>#00b289</li>
+                    <li>#4c4d5f</li>
+                </div>
+                <div class="list2">
+
+                    <li>#fff</li>
+                    <li>#f8db62</li>
+                </div>
+            </ul>
+        </div>
+        <div class="hline"></div>
+        <div class="part3">
+            <h2>Resources:</h2>
+            <ul>
+                <li><a href="#">Creating a dropdown menu</a></li>
+                <li><a href="#">Accessible accordions</a></li>
+                <li><a href="#">How to create a toggle switch</a></li>
+                <li><a href="#">Multi-level Sticky Footer</a></li>
+            </ul>
+        </div>
+    </section>
+    <div class="line"></div>
+    <section class="flyer">
+        <div class="boxes">
+            <div class="box1">
+                <h1>Up for a Challenges?</h1>
+                <p>Add the toggle functionality between monthly and yearly pricing</p>
+            </div>
+            <div class="box2">
+                <h1>Too easy?</h1>
+                <p>Recreate the dropsdowns on the main menu and their internal hover actions</p>
+            </div>
+            <div class="box3">
+                <h2>Too Hard?</h2>
+                <p>That's ok!</p>
+                <a href="#">View other projects</a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </section>
+    <section class="img">
+        <h1>Reference image</h1>
+        <div class="img"><img src="C2-bonsai.png" alt=""></div>
+    </section>
+</body>
+
+</html>
